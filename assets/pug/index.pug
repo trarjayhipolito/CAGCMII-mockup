@@ -1,0 +1,124 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  title Hello Bulma!
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css')
+  link(rel='stylesheet' href='assets/css/mystyles.css')
+  script(defer='' src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous")
+
+body
+    section.hero.is-large.backgroundone
+        nav.navbar.is-transparent.is-dark.body-margin
+            .navbar-brand
+                a.navbar-item(href='#')
+                    img(src='../images/favicon.png' alt='Bulma: a modern CSS framework based on Flexbox')
+                    | ConvX
+            .navbar-burger.burger(data-target='navbarExampleTransparentExample')
+                span
+                span
+                span
+            .navbar-end
+                a.navbar-item(href='#') About Us
+                a.navbar-item(href='#') Contact Us
+                a.navbar-item(href='#') How it works
+                .navbar-item
+                    a.button.is-link.is-outlined(target='_blank' href='#')
+                        span.icon
+                            i.fab.fa-twitter
+                        | Tweet
+        .hero-body.has-text-white.has-text-left.body-margin
+            .columns
+                .column.is-6
+                    h1.title Revolutionizing Convenyancing Through Digitalization
+                    h2.subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum molestias nobis repellendus iusto optio voluptatibus ducimus animi eum. Dignissimos!
+                    button.button.is-link Sign Up
+
+    section.hero
+        .hero-body.body-margin
+            .columns
+                .column
+                    h1.is-size-3 About Us
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur, suscipit saepe repudiandae autem labore iure praesentium corporis aspernatur itaque perspiciatis ipsam quis ratione cum nam atque dolores repellendus nobis non porro facilis ipsa? Consequatur nostrum dicta alias. Temporibus id, iure officia quo laudantium qui quas.
+                .column.has-text-centered
+                    img(src='../images/img-dan.png' alt='')
+                    div
+                        strong Dan Hunter
+                    p Lawyer and &quot;Tech Guy&quot; Dean of Law at Swinburne Founder of Quitch
+                .column.has-text-centered
+                    img(src='../images/img-simon.png')
+                    div
+                        strong Simon Quirk
+                    p Lawyer and &quot;Operations Guy&quot; Ex COO at ASX Listed Founder of Vidversity 
+                .column.has-text-centered
+                    img(src='../images/img-nick.png' alt='')
+                    div
+                        strong Nick Stanley
+                    p Engineer and &quot;Sales Guy&quot; Founder of Sky Software Investor
+
+    section.hero.backgroundtwo.is-medium.is-dark
+        .hero-body.body-margin
+            .has-text-centered.columns
+                .column.is-2.is-offset-5
+                    img(src="../images/logo-cvx.png", alt="")
+            .has-text-centered.columns
+                .column
+                    h1.is-size-3 ConvX may be the Uber of conveyancing 
+
+    section.hero.backgroundthree.is-medium
+        .hero-body.body-margin
+            .columns
+                .column.is-offset-5
+                    h1.title How it works
+                    ul
+                        li.has-text-margin-top 
+                            i.fas.fa-lightbulb.fa-2x.has-text-link
+                            |  Interacts via web/mobile at the consumer level, ensuring the information, response and reassurance
+                        li.has-text-margin-top
+                            i.fas.fa-lightbulb.fa-2x.has-text-link
+                            |  Automates and tracks all processes necessary to convey land, reducing insurance costs to delver settlements more quickly and consistently
+                        li.has-text-margin-top
+                            i.fas.fa-lightbulb.fa-2x.has-text-link 
+                            | Provides data analytics for clients who are developers. Data will also be package
+                        li.has-text-margin-top
+                            i.fas.fa-lightbulb.fa-2x.has-text-link 
+                            | Parcels out piecework within the transaction to home-based & remote knowledge workers
+                        li.has-text-margin-top
+                            i.fas.fa-lightbulb.fa-2x.has-text-link 
+                            | Deconstructed process allows for the progressive automation of discrete stages over time
+                        li.has-text-margin-top
+                            i.fas.fa-lightbulb.fa-2x.has-text-link 
+                            | Delivers lower cost to consumer while maintaining attractive margins and also enabling ConvX to scale with more agility than the traditional employee base model
+                        li.has-text-margin-top
+                            i.fas.fa-lightbulb.fa-2x.has-text-link 
+                            | Integrates with other real estates platforms to create an end to end real estate 
+                        
+    section.hero.is-small.is-link
+        .hero-body.body-margin
+            .has-text-centered.columns
+                .column
+                    h1.is-size-4 Contact Information
+                    p.has-text-margin-top
+                        i.fas.fa-map-marker
+                        |  56 Maxwell St, South Turramura NSW 2074, Australia
+                    p.has-text-margin-top
+                        i.fas.fa-mobile-alt
+                        |  +xx (x)xxxx xxx xx
+                    p.has-text-margin-top
+                        i.fas.fa-phone
+                        |  +xx (x)xxxx xxx xx
+                    p.has-text-margin-top
+                        i.fas.fa-envelope
+                        |  info@convx.com
+                    
+section.hero.is-small
+    .hero-body.body-margin
+        .has-text-centered.columns
+            .column
+                i.fab.fa-linkedin.fa-2x
+                p.has-text-margin-top Privacy Policy • Terms and Condition
+                p.has-text-margin-top Copyright 
+                    i.far.fa-copyright
+                    |  ConvX
+                p.has-text-margin-top v0.01

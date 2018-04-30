@@ -1,0 +1,21 @@
+.backgroundone{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/banner-1.jpeg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.backgroundtwo{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/img-quote.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+.backgroundthree{
+    background-image: url(../images/img-howitworks-2.jpeg);
+    background-size: contain;
+    background-position: bottom left;
+    background-repeat: no-repeat;}
+
+.has-grayscale{
+    filter: grayscale(100%)
+}

@@ -4,7 +4,7 @@ const pug = require('gulp-pug')
 const imagemin = require('gulp-imagemin')
 
 gulp.task('sass', () => {
-    gulp.src('assets/sass/*.scss')
+    gulp.src('assets/sass/all.scss')
         // .pipe( sass().on('error', sass.logError) )
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe( gulp.dest('dist/assets/css') )
@@ -16,7 +16,7 @@ gulp.task('pug', () => {
         .pipe(pug({
             pretty: true
         }))
-        .pipe( gulp.dest('dist') )
+        .pipe( gulp.dest('') )
 })
 
 gulp.task('imagemin', ()=>{

@@ -12,11 +12,11 @@ head
 body
     section.hero.is-large.backgroundone
         .hero-head
-            nav.navbar.is-transparent.is-dark
+            nav.navbar.is-fixed-top
                 .navbar-brand.body-margin
                     a.navbar-item(href='#')
-                        img(src='images/favicon.png' alt='Bulma: a modern CSS framework based on Flexbox')
-                        | ConvX
+                        img(src='images/favicon2.png' alt='Bulma: a modern CSS framework based on Flexbox')
+                        | Christ's Ambassadors
                     .navbar-burger.burger(data-target='navMenu' aria-label='menu' aria-expanded='false')
                         span(aria-hidden='true')
                         span(aria-hidden='true')
@@ -24,79 +24,165 @@ body
 
                 .navbar-menu.body-margin(id='navMenu')
                     .navbar-end
-                        a.navbar-item.has-text-white.hover-transparent(href='#') About Us
-                        a.navbar-item.has-text-white.hover-transparent(href='#') Contact Us
-                        a.navbar-item.has-text-white.hover-transparent(href='#') How it works
+                        a.navbar-item(href='#') About Us
+                        a.navbar-item(href='#') Location
+                        a.navbar-item(href='#') Events
+                        a.navbar-item(href='#') Sermons
+                        a.navbar-item(href='#') Donate
                         .navbar-item
                             a.button.is-link(href='#') Sign In
+                        .navbar-item
+                            a.button.is-link.is-outlined(href='#') Donate
 
-            .hero-body.has-text-white.has-text-left.body-margin
+            .hero-body.has-text-white.has-text-centered.body-margin
                 .columns
-                    .column.is-6
-                        h1.title Revolutionizing Convenyancing Through Digitalization
-                        h2.subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum molestias nobis repellendus iusto optio voluptatibus ducimus animi eum. Dignissimos!
-                        button.button.is-info.is-long 
-                            strong Sign Up
+                    .column
+                        h1.title.is-1 Christ's Ambassadors
+                        h2.subtitle.is-3 of the Great Commission Ministries Int., Inc.
+                        //- button.button.is-info.is-long 
+                        //-     strong Sign Up
 
-    section.hero
+    section.hero.notthatwhite
         .hero-body.body-margin
-            .columns.is-desktop
-                .column
-                    h1.is-size-3 About Us
-                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur, suscipit saepe repudiandae autem labore iure praesentium corporis aspernatur itaque perspiciatis ipsam quis ratione cum nam atque.
-                .column.has-text-centered
-                    img.has-grayscale(src='images/img-dan.png' alt='')
-                    div
-                        strong Dan Hunter
-                    p Lawyer and &quot;Tech Guy&quot; Dean of Law at Swinburne Founder of Quitch
-                .column.has-text-centered
-                    img.has-grayscale(src='images/img-simon.png' alt='')
-                    div
-                        strong Simon Quirk
-                    p Lawyer and &quot;Operations Guy&quot; Ex COO at ASX Listed Founder of Vidversity 
-                .column.has-text-centered
-                    img.has-grayscale(src='images/img-nick.png' alt='')
-                    div
-                        strong Nick Stanley
-                    p Engineer and &quot;Sales Guy&quot; Founder of Sky Software Investor
+            .columns
+                .column.is-3
+                    h1.title.is-3 About Us
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur dicta quo hic iusto harum doloremque tenetur officiis aperiam perspiciatis! Rerum qui earum, illo enim eligendi fugiat sapiente odio, repellat consequatur nisi, ad corrupti similique velit a. Inventore hic cumque earum vero ducimus natus minus nesciunt animi, dolores iusto consequatur aspernatur optio iure dolorum mollitia modi necessitatibus alias delectus ad? Repellendus quis voluptatum reiciendis possimus? Sapiente pariatur eum a eaque quod!
+                .column.is-9
+                    .columns.is-multiline
+                        .column.is-3.has-text-centered
+                            img(src="http://via.placeholder.com/150x150" alt='')
+                            div
+                                strong Crisostomo L. Martin
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, molestias!
+                        .column.is-3.has-text-centered
+                            img(src="http://via.placeholder.com/150x150" alt='')
+                            div
+                                strong Arnulfo Santiago
+                            p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, numquam.
+                        .column.is-3.has-text-centered
+                            img(src="http://via.placeholder.com/150x150" alt='')
+                            div
+                                strong Florante Lacbu
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, voluptas.
+                        .column.is-3.has-text-centered
+                            img(src="http://via.placeholder.com/150x150" alt='')
+                            div
+                                strong Rolly S. Limjoco
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, voluptas.
+                        .column.is-3.has-text-centered
+                            img(src="http://via.placeholder.com/150x150" alt='')
+                            div
+                                strong Reynaldo P. Delos Santos
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, voluptas.
+                        .column.is-3.has-text-centered
+                            img(src="http://via.placeholder.com/150x150" alt='')
+                            div
+                                strong Carla L. Teresa
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, voluptas.
+                        .column.is-3.has-text-centered
+                            img(src="http://via.placeholder.com/150x150" alt='')
+                            div
+                                strong Zaralyn E. Vinuya
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, voluptas.
+                        .column.is-3.has-text-centered
+                            img(src="http://via.placeholder.com/150x150" alt='')
+                            div
+                                strong Charina Sombillo
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, voluptas.
+
 
     section.hero.backgroundtwo.is-medium.is-dark.overlay
         .hero-body.body-margin
             .is-centered.columns.is-mobile
                 .column.is-3
-                    img(src="images/logo-cvx.png", alt="")
+                    img(src="images/favicon2.png", alt="")
             .has-text-centered.columns
                 .column
-                    h1.is-size-2 ConvX may be the Uber of conveyancing 
+                    h1.is-size-2 Go and Make disciples of all nations
 
-    section.hero.backgroundthree.is-medium
+    section.hero.notthatwhite
         .hero-body.body-margin
-            .columns.is-desktop
-                .column.is-5
-                .column
-                    h1.title How it works
-                    ul
-                        li.has-text-margin-top 
-                            i.far.fa-lightbulb.fa-2x.has-text-link
-                            |  Interacts via web/mobile at the consumer level, ensuring the information, response and reassurance
-                        li.has-text-margin-top
-                            i.far.fa-lightbulb.fa-2x.has-text-link
-                            |  Automates and tracks all processes necessary to convey land, reducing insurance costs to delver settlements more quickly and consistently
-                        li.has-text-margin-top
-                            i.far.fa-lightbulb.fa-2x.has-text-link 
-                            |  Provides data analytics for clients who are developers. Data will also be package
-                        li.has-text-margin-top
-                            i.far.fa-lightbulb.fa-2x.has-text-link 
-                            |  Parcels out piecework within the transaction to home-based & remote knowledge workers
-                        li.has-text-margin-top
-                            i.far.fa-lightbulb.fa-2x.has-text-link 
-                            |  Deconstructed process allows for the progressive automation of discrete stages over time
-                        li.has-text-margin-top
-                            i.far.fa-lightbulb.fa-2x.has-text-link 
-                            |  Delivers lower cost to consumer while maintaining attractive margins and also enabling ConvX to scale with more agility than the traditional employee base model
-                        li.has-text-margin-top
-                            i.far.fa-lightbulb.fa-2x.has-text-link 
-                            |  Integrates with other real estates platforms to create an end to end real estate 
+            h1.title.is-3 Join Our Events!!!
+            .columns.is-multiline
+                .column.is-4
+                    .card
+                        header.card-header
+                            p.card-header-title This is a Sample Event
+                            a.card-header-icon(href="#", aria-label="more options")
+                                span.icon
+                                    i.fas.fa-angle-down(aria-hidden="true")
+                        .card-content
+                            img(src="http://via.placeholder.com/600x200" alt='')
+                            .content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                time(datetime="2016-1-1") 11:09 PM - 1 Jan 2016
+                        footer.card-footer
+                            a.card-footer-item Attend
+                .column.is-4
+                    .card
+                        header.card-header
+                            p.card-header-title This is a Sample Event
+                            a.card-header-icon(href="#", aria-label="more options")
+                                span.icon
+                                    i.fas.fa-angle-down(aria-hidden="true")
+                        .card-content
+                            img(src="http://via.placeholder.com/600x200" alt='')
+                            .content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                time(datetime="2016-1-1") 11:09 PM - 1 Jan 2016
+                        footer.card-footer
+                            a.card-footer-item Attend
+                .column.is-4
+                    .card
+                        header.card-header
+                            p.card-header-title This is a Sample Event
+                            a.card-header-icon(href="#", aria-label="more options")
+                                span.icon
+                                    i.fas.fa-angle-down(aria-hidden="true")
+                        .card-content
+                            img(src="http://via.placeholder.com/600x200" alt='')
+                            .content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                time(datetime="2016-1-1") 11:09 PM - 1 Jan 2016
+                        footer.card-footer
+                            a.card-footer-item Attend
+                .column.is-4
+                    .card
+                        header.card-header
+                            p.card-header-title This is a Sample Event
+                            a.card-header-icon(href="#", aria-label="more options")
+                                span.icon
+                                    i.fas.fa-angle-down(aria-hidden="true")
+                        .card-content
+                            img(src="http://via.placeholder.com/600x200" alt='')
+                            .content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                time(datetime="2016-1-1") 11:09 PM - 1 Jan 2016
+                        footer.card-footer
+                            a.card-footer-item Attend
+                .column.is-4
+                    .card
+                        header.card-header
+                            p.card-header-title This is a Sample Event
+                            a.card-header-icon(href="#", aria-label="more options")
+                                span.icon
+                                    i.fas.fa-angle-down(aria-hidden="true")
+                        .card-content
+                            img(src="http://via.placeholder.com/600x200" alt='')
+                            .content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                time(datetime="2016-1-1") 11:09 PM - 1 Jan 2016
+                        footer.card-footer
+                            a.card-footer-item Attend
+                .column.is-4
+                    .card
+                        header.card-header
+                            p.card-header-title This is a Sample Event
+                            a.card-header-icon(href="#", aria-label="more options")
+                                span.icon
+                                    i.fas.fa-angle-down(aria-hidden="true")
+                        .card-content
+                            img(src="http://via.placeholder.com/600x200" alt='')
+                            .content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                time(datetime="2016-1-1") 11:09 PM - 1 Jan 2016
+                        footer.card-footer
+                            a.card-footer-item Attend
                         
     section.hero.is-small.is-link
         .hero-body.body-margin
@@ -105,7 +191,7 @@ body
                     h1.is-size-4 Contact Information
                     p.has-text-margin-top
                         i.fas.fa-map-marker
-                        |  56 Maxwell St, South Turramura NSW 2074, Australia
+                        |  Pansol Pasig Candaba Pampanga
                     p.has-text-margin-top
                         i.fas.fa-mobile-alt
                         |  +xx (x)xxxx xxx xx
@@ -114,15 +200,15 @@ body
                         |  +xx (x)xxxx xxx xx
                     p.has-text-margin-top
                         i.fas.fa-envelope
-                        |  info@convx.com
+                        |  info@cagcmii.com
                     
     section.hero.is-small
         .hero-body.body-margin
             .has-text-centered.columns
                 .column
-                    i.fab.fa-linkedin.fa-2x
+                    i.fab.fa-github.fa-2x
                     p.has-text-margin-top Privacy Policy • Terms and Condition
                     p.has-text-margin-top Copyright 
                         i.far.fa-copyright
-                        |  ConvX
+                        |  CAGCMII
                     p.has-text-margin-top v0.01

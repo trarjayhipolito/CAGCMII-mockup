@@ -1,21 +1,17 @@
 .backgroundone{
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/banner-1.jpeg); 
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgroundHD2.jpg); 
     background-size: cover; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .backgroundtwo{
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/img-quote.jpeg);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/banner2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;}
+    background-position: center;
+}
 
-.backgroundthree{
-    background-image: url(../images/img-howitworks-2.jpeg);
-    background-size: contain;
-    background-position: bottom left;
-    background-repeat: no-repeat;}
-
-.has-grayscale{
-    filter: grayscale(100%)
+.notthatwhite{
+    background-color: #F0F2F4;
 }

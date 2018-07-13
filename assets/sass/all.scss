@@ -4,8 +4,6 @@
 
 @import '../../node_modules/bulma/bulma';
 
-@import 'text-margin';
-
 @import 'background';
 
 @import 'font';
@@ -18,4 +16,28 @@
     a:hover {
         background-color: rgba(0, 0, 0, 0.1) !important;
     }
+}
+
+.body-margin{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.has-text-margin-top{
+  margin-top: 10px;
+}
+
+.heroTitle {
+  height: 200px;
+
+  @media (max-width: 768px) {
+    height: 150px;
+  }
+}
+
+.bottomleft {
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
 }

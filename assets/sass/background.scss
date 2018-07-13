@@ -1,12 +1,19 @@
-.backgroundone{
+.bannerone{
     background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backgroundHD2.jpg); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.backgroundtwo{
+.bannertwo{
     background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bannerthree{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/banner3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -8,9 +8,11 @@
   <script defer="" src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <script src="../assets/js/burger.js"></script>
+  <script type="text/javascript" src="/node_modules/bulma-extensions/dist/css/bulma-extensions.min.css"></script>
+  <link rel="stylesheet" href="/node_modules/bulma-extensions/dist/js/bulma-extensions.js">
 </head>
 <body>
-  <nav class="navbar is-fixed-top">
+  <nav class="navbar">
     <div class="navbar-brand body-margin"><a class="navbar-item" href="index.html"><img src="images/favicon2.png">Christ's Ambassadors</a>
       <div class="navbar-burger burger" data-target="navMenu" aria-label="menu" aria-expanded="false"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></div>
     </div>
@@ -79,7 +81,7 @@
       </div>
     </div>
   </section>
-  <section class="hero bannertwo is-medium is-dark overlay">
+  <section class="hero bannertwo is-medium is-dark">
     <div class="hero-body body-margin">
       <div class="is-centered columns is-mobile">
         <div class="column is-3"><img src="images/favicon2.png" alt=""></div>
@@ -176,7 +178,7 @@
       </div>
     </div>
   </section>
-  <section class="hero bannerthree is-medium is-dark overlay">
+  <section class="hero bannerthree is-medium is-dark">
     <div class="hero-body body-margin">
       <div class="has-text-centered columns is-multiline">
         <div class="column is-12">
@@ -188,9 +190,59 @@
   </section>
   <section class="hero is-small is-link">
     <div class="hero-body body-margin">
-      <div class="has-text-centered columns">
-        <div class="column">
-          <h1 class="is-size-4">Contact Information</h1>
+      <div class="columns">
+        <div class="column is-4 has-text-right has-text-margin-right">
+          <h1 class="title is-1">Contact</h1>
+          <p class="subtitle">Us</p>
+        </div>
+        <div class="column is-4">
+          <div class="field">
+            <label class="has-text-white label">Name</label>
+            <div class="control has-icons-left">
+              <input class="input" type="text" placeholder="Text input"><span class="icon is-small is-left"><i class="fas fa-user"></i></span>
+            </div>
+          </div>
+          <div class="field">
+            <label class="has-text-white label">Mobile Number</label>
+            <div class="control has-icons-left">
+              <input class="input" type="text" placeholder="Text input"><span class="icon is-small is-left"><i class="fas fa-mobile"></i></span>
+            </div>
+          </div>
+          <div class="field">
+            <label class="has-text-white label">Email</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email" placeholder="Email input"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
+            </div>
+          </div>
+          <div class="field">
+            <label class="has-text-white label">Subject</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Select dropdown</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="has-text-white label">Message</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Textarea"></textarea>
+            </div>
+          </div>
+          <div class="field is-grouped is-pulled-right">
+            <div class="control">
+              <button class="button is-success">Submit</button>
+            </div>
+            <div class="control">
+              <button class="button is-dafault">Cancel</button>
+            </div>
+          </div>
+        </div>
+        <div class="column is-3 has-text-centered">
+          <p class="subtitle is-3">Connect to us anytime!</p><i class="fab fa-facebook-square fa-2x has-text-margin-right"></i><i class="fab fa-instagram fa-2x has-text-margin-right"></i><i class="fab fa-youtube fa-2x has-text-margin-right"></i><i class="fab fa-twitter-square fa-2x"></i>
+          <h1 class="is-size-4 has-text-margin-top">Contact Information</h1>
           <p class="has-text-margin-top"><i class="fas fa-map-marker"></i> Pansol Pasig Candaba Pampanga</p>
           <p class="has-text-margin-top"><i class="fas fa-mobile-alt"></i> +xx (x)xxxx xxx xx</p>
           <p class="has-text-margin-top"><i class="fas fa-phone"></i> +xx (x)xxxx xxx xx</p>
@@ -202,7 +254,7 @@
   <section class="hero is-small">
     <div class="hero-body body-margin">
       <div class="has-text-centered columns">
-        <div class="column"><i class="fab fa-github fa-2x"></i>
+        <div class="column"><a href="https://github.com/trarjayhipolito/CAGCMII-mockup"><i class="fab fa-github fa-2x"></i></a>
           <p class="has-text-margin-top">Privacy Policy • Terms and Condition</p>
           <p class="has-text-margin-top">Copyright <i class="far fa-copyright"></i> CAGCMII</p>
           <p class="has-text-margin-top">v0.01</p>

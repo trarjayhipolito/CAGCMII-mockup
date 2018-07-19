@@ -30,5 +30,6 @@ gulp.task('default', ['sass', 'pug', 'imagemin'] )
 
 gulp.task('watch', () => {
     gulp.watch('assets/sass/*', ['sass'])
+    gulp.watch('assets/pug/*/*', ['pug'])
     gulp.watch('assets/pug/*', ['pug'])
 })

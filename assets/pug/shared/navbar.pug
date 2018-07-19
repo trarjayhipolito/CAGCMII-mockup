@@ -1,0 +1,20 @@
+nav.navbar
+    .navbar-brand.body-margin
+        a.navbar-item(href='index.html')
+            img(src='images/favicon2.png')
+            | Christ's Ambassadors
+        .navbar-burger.burger(data-target='navMenu' aria-label='menu' aria-expanded='false')
+            span(aria-hidden='true')
+            span(aria-hidden='true')
+            span(aria-hidden='true')
+
+    .navbar-menu.body-margin(id='navMenu')
+        .navbar-end
+            a.navbar-item(href='aboutUsPage.html') About Us
+            a.navbar-item(href='locationPage.html') Location
+            a.navbar-item(href='eventsPage.html') Events
+            a.navbar-item(href='sermonsPage.html') Sermons
+            .navbar-item
+                a.button.is-link(href='#') Sign In
+            .navbar-item
+                a.button.is-link.is-outlined(href='donatePage.html') Donate

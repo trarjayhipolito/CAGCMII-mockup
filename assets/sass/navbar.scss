@@ -1,4 +1,11 @@
 .navbar{
     box-shadow: none !important;
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: white !important;
+}
+
+.navbar {
+    a:hover {
+        color: black;
+        background-color: rgba(0, 0, 0, 0.04)
+    }
 }

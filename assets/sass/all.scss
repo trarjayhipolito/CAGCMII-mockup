@@ -4,7 +4,11 @@
 
 @import '../../node_modules/bulma/bulma';
 
+@import 'others';
+
 @import 'background';
+
+@import 'images';
 
 @import 'font';
 
@@ -12,62 +16,8 @@
 
 @import 'button';
 
-.navbar {
-  position: relative !important;
-}
-
-.card-footer {
-    a:hover {
-        background-color: rgba(0, 0, 0, 0.1) !important;
-    }
-}
-
-.body-margin{
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
-.has-text-margin-top{
-  margin-top: 1rem;
-}
-
-.has-text-margin-bottom{
-  margin-bottom: 1rem;
-}
-
-.has-text-margin-right{
-  margin-right: 1rem;
-}
-
-.has-text-margin-left{
-  margin-left: 1rem;
-}
-
-.heroTitle {
-  height: 200px;
-
-  @media (max-width: 768px) {
-    height: 150px;
+@media screen and (max-width: $bulma-md){
+  .navbar-menu {
+    box-shadow: none;
   }
 }
-
-.embed {
-  width: 100%;
-  height: 460px;
-}
-
-.yt-list {
-  border: 2px solid black;
-<<<<<<< HEAD
-  height: 75px;
-}
-=======
-  height: 100px;
-  overflow: hidden;
-}
-
-.img-responsive {
-  max-width: 100px;
-  margin: 0.5rem
-}
->>>>>>> e276ba765b62334d75f9d1f2635cdd6934760469

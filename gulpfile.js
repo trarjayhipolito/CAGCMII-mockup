@@ -16,7 +16,7 @@ gulp.task('pug', () => {
         .pipe(pug({
             pretty: true
         }))
-        .pipe( gulp.dest('./dist/assets/html') )
+        .pipe( gulp.dest('') )
 })
 
 gulp.task('imagemin', ()=>{

@@ -2,7 +2,7 @@
   "name": "bulmaprac",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/html/index.js",
+  "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass assets/sass/mystyles.scss assets/css/mystyles.css -w"
   },
